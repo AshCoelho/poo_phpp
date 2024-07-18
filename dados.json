@@ -1,0 +1,20 @@
+[
+    {
+        "brinquedo": "Roda-Gigante",
+        "comida": "Pipoca",
+        "endereco": "rua da paz",
+        "dia": "2024-07-30"
+    },
+    {
+        "brinquedo": "Roda-Gigante",
+        "comida": "Algod\u00e3o Doce ",
+        "endereco": "rua da paz",
+        "dia": "2024-10-09"
+    },
+    {
+        "brinquedo": "Barca",
+        "comida": "Algod\u00e3o Doce ",
+        "endereco": "rua da paz",
+        "dia": "2024-07-22"
+    }
+]

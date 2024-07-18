@@ -1,16 +1,17 @@
 <?php
 // Classe Carro que representa um carro
-class Info {
+class Informacao {
     private $brinquedo;
     private $comida;
-    private $local;
-
+    private $endereco;
+    private $dia;
 
     // Construtor da classe
-    public function __construct($brinquedo, $comida, $local) {
+    public function __construct($brinquedo, $comida, $endereco, $dia) {
         $this->brinquedo = $brinquedo;
         $this->comida = $comida;
-        $this->local = $local;
+        $this->endereco = $endereco;
+        $this->dia = $dia;
     }
 
     // Getters para acessar as propriedades do carro
@@ -22,8 +23,12 @@ class Info {
         return $this->comida;
     }
 
-    public function getLocal() {
-        return $this->lcal;
+    public function getEndereco() {
+        return $this->endereco;
+    }
+
+    public function getDia() {
+        return $this->dia;
     }
 }
 ?>
